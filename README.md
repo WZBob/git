@@ -11,6 +11,6 @@ Ok！
 - git remote rm respName2  移除远程仓库
 
 工作区  暂存区（stage） 
-- git add 把文件修改添加到暂存区，对于只修改或删除已被git管理的文档，没必要使用add，可以使用commit
+- git add <file> 把文件修改添加到暂存区
 - git add . 判断所有被修改或删除的文档，及新增的文档，并将其信息追加到索引中
 - git commit 将暂存区的所有内容提交到当前分支
