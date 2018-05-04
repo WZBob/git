@@ -8,9 +8,9 @@
 ------
 
 工作区  暂存区（stage） 
-- git add file 把文件修改添加到暂存区
+- git add file 把文件修改添加到暂存区。对删除已被git管理的文件，没必要用add，直接commit就可以
 - git add . 判断所有被修改或删除的文档，及新增的文档，并将其信息追加到索引中
-- git commit 将暂存区的所有内容提交到当前分支
+- git commit （-a）-m "描述"  将暂存区的所有内容提交到当前分支
 - git push origin master  将修改合并到origin代表仓库的master分支
 
 - git checkout -- file   可以丢弃工作区的修改，会获取暂存区的状态
