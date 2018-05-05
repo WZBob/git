@@ -5,6 +5,7 @@
 - git remote add respName respURL  添加远程仓库（可命名简写）
 - git remote rename respName1 respName2  重命名仓库简写
 - git remote rm respName2  移除远程仓库
+- git status  查看当前工作树的状态
 ------
 
 工作区  暂存区（stage） 
