@@ -9,10 +9,11 @@
 
 工作区  暂存区（stage） 
 - git add path 把文件修改添加到暂存区。对删除已被git管理的文件，没必要用add，直接commit就可以
-- git add . 判断所有被修改或删除的文档，及新增的文档，并将其信息追加到索引中
-- git add -u [path] 将path中所有tracked文件中被修改或删除文件的信息添加到索引库，不会处理untracked文件。
-- git add -A [path] 将path中所有tracked文件中被修改或删除文件和所有untracked的文件信息添加到索引库
-- git commit （-a）-m "描述"  将暂存区的所有内容提交到当前分支
+- git add . 判断所有被修改或删除的文档，及新增的文档，并将其信息追加到暂存区
+- git add -u [path] 将path中所有tracked文件中被修改或删除文件的信息添加到暂存区，不会处理untracked文件。
+- git add -A [path] 将path中所有tracked文件中被修改或删除文件和所有untracked的文件信息添加到暂存区
+- git commit -m "描述"  将暂存区的所有内容提交到当前分支
+- git commit -a -m "描述"  只将被修改或删除的被git管理的文件提交到仓库（在不使用add命令时）
 - git push origin master  将修改合并到origin代表仓库的master分支
 
 - git checkout -- path   可以丢弃工作区的修改，会获取暂存区的状态
