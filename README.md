@@ -23,7 +23,7 @@
 拉取远程更新到本地
 - git pull 仓库简写  远程分支:本地分支
 
-    git pull origin new:master  将origin中的new分支，与本地master分支合并
-    git pull origin new         将origin中的new分支，与本地当前分支合并
-    git pull origin             将origin中的当前分支与本地分支合并
-    git pull                    拉去当前分支对应的远程分支
+	- git pull origin new:master  将origin中的new分支，与本地master分支合并
+	- git pull origin new         将origin中的new分支，与本地当前分支合并
+	- git pull origin             将origin中的当前分支与本地分支合并
+	- git pull                    拉去当前分支对应的远程分支
